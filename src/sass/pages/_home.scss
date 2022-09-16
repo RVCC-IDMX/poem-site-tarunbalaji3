@@ -1,16 +1,43 @@
-/* home */
-@use "../abstracts/variables" as var;
-@use "../base/typography" as type;
+/* Styling & Typography */
 
 body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
+  font-size: clamp(1rem, 0.75rem + 1.25vw, 1.5rem);
+  width: min(100vw, 800px);
+  padding: max(2vh, 1rem);
+  color: #451111;
+  background-color: beige;
+  font-family: 'Lora';
+}
+
+img {
+  height: auto;
+  border: 6px solid #451111;
+}
+
+body,
+img {
   margin-inline: auto;
-  margin-block: 4rem;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  line-height: 1.1;
+}
+
+:root {
+  --flow-space: 3rem;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
 }
 
 h1 {
-  color: var.$primary-color;
-  text-align: center;
+  font-size: clamp(3rem, 2.5rem + 2.5vw, 4rem);
+}
+h2 {
+  --flow-space: 1rem;
+  font-size: clamp(1.25rem, 0.875rem + 1.875vw, 2rem);
 }
