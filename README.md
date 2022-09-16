@@ -1,4 +1,4 @@
-# IDMX 11ty Sass Starter
+# Poem Site - IDMX 11ty Sass Starter
 
 The set of development scripts in this starter is configured to watch and compile a simple Sass structure using 11ty.
 
@@ -12,7 +12,7 @@ The build process includes minifiying and autoprefixing of styles via the `postb
 
 **`npm install`**
 
->Run this command once to install the needed node modules.
+> Run this command once to install the needed node modules.
 
 ## Development Scripts
 
@@ -29,3 +29,7 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 ## Resources
 
 <small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+
+**Poem**: _"Full of Life, Now"_ by _Walt Whitman_
+
+**Image**: Image by _Harli Marten_
